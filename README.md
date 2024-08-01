@@ -3,6 +3,7 @@
 **Integrantes**
 - Augusto G Serrano
 - Caio S Lopes
+- Eduardo P Carvalho
 
 ## Descrição
 O projeto consiste no desenvolvimento de um subsistema para armazenar dados em arquivos.
