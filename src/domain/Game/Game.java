@@ -1,8 +1,10 @@
 package domain.Game;
 
+import fileSystem.ObjectConvert;
+
 import java.time.LocalDateTime;
 
-public class Game {
+public class Game implements ObjectConvert<Game> {
 
     private Long id;
     private String title;
@@ -10,13 +12,7 @@ public class Game {
     private LocalDateTime release;
     private String category;
 
-    public Game(String ...arg) {
-        this.id = Long.parseLong(arg[0]);
-        this.title = arg[1];
-        this.publisher = arg[2];
-        this.release = LocalDateTime.parse(arg[3]);
-        this.category = arg[4];
-    }
+    public Game(){}
 
     public Game(Long id, String title, String publisher, LocalDateTime release, String category) {
         this.id = id;
@@ -69,5 +65,10 @@ public class Game {
     @Override
     public String toString() {
         return String.format("%d;%s;%s;%s;%s", id, title, publisher, release, category);
+    }
+
+    @Override
+    public Game fromString(String... args) {
+        return new Game(Long.parseLong(args[0]), args[1], args[2], LocalDateTime.parse(args[3]), args[4]);
     }
 }

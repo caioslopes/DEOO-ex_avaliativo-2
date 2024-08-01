@@ -4,7 +4,7 @@ import domain.Game.Game;
 import fileSystem.FileInterpreter;
 import fileSystem.FileManagement;
 import infra.repository.IRepository;
-import infra.repository.fileConverse.GameFileConverse;
+import infra.fileConverse.GameFileConverse;
 
 import java.util.Collection;
 

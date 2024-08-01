@@ -1,4 +1,4 @@
-package infra.repository.fileConverse;
+package infra.fileConverse;
 
 import domain.Game.Game;
 import fileSystem.FileConverse;
@@ -10,7 +10,7 @@ public class GameFileConverse implements FileConverse<Game> {
 
     @Override
     public Game generate(String... args) {
-        return new Game(args);
+        return new Game().fromString(args);
     }
 
     @Override

@@ -1,18 +1,15 @@
 package domain.User;
 
-public class User {
+import fileSystem.ObjectConvert;
+
+public class User implements ObjectConvert<User> {
 
     private Long id;
     private String name;
     private String email;
     private String password;
 
-    public User(String[] string) {
-        this.id = Long.parseLong(string[0]);
-        this.name = string[1];
-        this.email = string[2];
-        this.password = string[3];
-    }
+    public User(){}
 
     public User(Long id, String name, String email, String password) {
         this.id = id;
@@ -56,5 +53,10 @@ public class User {
     @Override
     public String toString() {
         return String.format("%d;%s;%s;%s", id, name, email, password);
+    }
+
+    @Override
+    public User fromString(String... args) {
+        return new User(Long.parseLong(args[0]), args[1], args[2], args[3]);
     }
 }
