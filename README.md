@@ -21,4 +21,4 @@ Foi implementado o _design pattern Facade_ no projeto através de uma classe cha
 ## UML do Projeto
 ![UML-ex-ava](https://github.com/user-attachments/assets/764d00e9-eb54-4417-85b8-65e2254e7b65)
 
-* Obs: Note que no package Domain está sendo mostrado apenas a entidade User enquanto que no projeto também existe a classe Game. Isso acontece pois o ObjectConverter faz a abstração e conversão das entidades sempre da mesma forma independente de qual seja, sendo assim, decidimos não representar a classe Game apenas para simplificar o diagrama.
+* Obs: Note que no package Domain está sendo mostrado apenas a entidade User enquanto que no projeto também existe a classe Game. Decidimos não representar a classe Game para simplificar o diagrama.
