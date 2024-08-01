@@ -15,3 +15,5 @@ A implantação do Repository (como um Facade) abstrai a complexibidade da manip
 
 ## Implementação
 Foi implementado o _design pattern Facade_ no projeto através de uma classe chamada Repository, está classe instacia todas as ferramentas necessárias para realizar a manipulação dos arquivos (CRUD - Create, Read, Update, Delete). Repository é usado para abstrair a manipulação dos arquivos, fazendo com que o cliente acesse apenas a interface Repository sem se preocupar com a implementação.
+
+![UML-ex-ava](https://github.com/user-attachments/assets/764d00e9-eb54-4417-85b8-65e2254e7b65)
