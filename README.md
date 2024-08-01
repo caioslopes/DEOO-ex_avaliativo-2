@@ -11,6 +11,8 @@ O projeto consiste no desenvolvimento de um sistema para armazenar dados em arqu
 O subsistema criado para manipular os arquivos possui diversas funcionaliades que precisam ser utilizadas de forma correta, gerando uma complexibidade para seu uso.
 
 ## Pattern(s)
+- Facade
+
 A implantação do Repository (como um Facade) abstrai a complexibidade da manipulação dos arquivos.
 
 ## Implementação
