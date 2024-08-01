@@ -5,7 +5,7 @@
 - Caio S Lopes
 
 ## Descrição
-O projeto consiste no desenvolvimento de uma biblioteca para trabalhar com armazenagem de dados em arquivos.
+O projeto consiste no desenvolvimento de um subsistema para armazenar dados em arquivos.
 
 ## Problema
 O subsistema criado para manipular os arquivos possui diversas funcionaliades que precisam ser utilizadas de forma correta, gerando uma complexibidade para seu uso.
