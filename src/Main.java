@@ -14,7 +14,7 @@ public class Main {
         User user1 = new User(1L, "Ednilson", "ednilson@gmail.com", "bersaneti");
         User user2 = new User(3L, "Nunes", "ednilson@gmail.com", "servlet");
         User user3 = new User(5L, "Furquim", "ednilson@gmail.com", "linux");
-        User user4 = new User(7L, "Ricardo", "ednilson@gmail.com", "trycath");
+        User user4 = new User(7L, "Ricardo", "ednilson@gmail.com", "trycatch");
         User user5 = new User(9L, "Marcelo", "ednilson@gmail.com", "treads");
 
         userRepository.saveAll(List.of(user1, user2, user3, user4, user5));
